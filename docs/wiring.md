@@ -66,7 +66,7 @@ sensor, is in `hardware.md`.
 | GPIO33 | 10 | S2, bottom button |
 | GND | 8 | GND |
 
-| ESP32-C3 | Pin | Net |
+| ESP32-C3 |  | Pin | Net |
 | --- | --- | --- | --- |
 | GPIO10 | I2C SCL | 14 on HU-058D; 16 on HU-058 / HU-058SE | CLK, driver 1 |
 | GPIO7 | I2C SDA | 5 | DATA, driver 1 |
