@@ -72,8 +72,6 @@ your module. Nothing else should need touching.
 Config validation will not warn you, because the component accepts any ESP32.
 The first sign of trouble is a compile error inside `aip33628.cpp`.
 
-Code Done by Qetuo \firmware\esphome-esp32-c3\
-
 ### ESP8266
 
 Nope, this requires an ESP32. The scan leans on `gptimer` and on that single-store frame send, so porting it is a real project rather than a config change.
@@ -154,10 +152,10 @@ Full build notes are in `../../docs/wiring.md`.
 ```yaml
 aip33628:
   id: panel
-  clk_pin: GPIO22
-  data_pin: GPIO21
-  clk2_pin: GPIO19
-  data2_pin: GPIO18
+  clk_pin: GPIO10
+  data_pin: GPIO7
+  clk2_pin: GPIO4
+  data2_pin: GPIO5
   time_id: ha_time
   twelve_hour: true
   blink_colon: true
