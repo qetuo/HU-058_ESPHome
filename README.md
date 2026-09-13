@@ -92,7 +92,7 @@ Assistant:
 - A lamp test button that lights every populated LED white for three seconds,
   then returns to the time with the previous settings.
 
-`firmware/esp32/panel-test/` is a bare-metal PlatformIO project that drives
+`firmware/esp32-wroom-32/panel-test/` is a bare-metal PlatformIO project that drives
 the same panel with nothing but the Arduino core. It is the better starting
 point for a port, and its serial commands are the fastest way to find out
 which LED positions a given board actually has fitted.
