@@ -78,7 +78,7 @@ The display map came out of logic analyzer captures of the stock firmware.
 
 ## Firmware
 
-`firmware/esphome/` is the firmware that runs the clock. An ESPHome external
+`firmware/esphome-wroom-32/` is the firmware that runs the clock. An ESPHome external
 component for the two drivers, plus a config that puts the panel in Home
 Assistant:
 
