@@ -140,16 +140,15 @@ the buttons, plus a ground.
 
 Full build notes are in `../../docs/wiring.md`.
 
-| ESP32 | Pin | Net |
-| --- | --- | --- |
-| GPIO22 | 14 on HU-058D; 16 on HU-058 / HU-058SE | CLK, driver 1 |
-| GPIO21 | 5 | DATA, driver 1 |
-| GPIO19 | 1 | CLK_1, driver 2 |
-| GPIO18 | 2 | DATA_1, driver 2 |
-| GPIO32 | 9 | S1, top button |
-| GPIO33 | 10 | S2, bottom button |
-| GND | 8 | GND |
-
+| ESP32-C3 | Input | Pin | Net |
+| --- | --- | --- | --- |
+| GPIO10 | I2C SCL | 14 on HU-058D; 16 on HU-058 / HU-058SE | CLK, driver 1 |
+| GPIO7 | I2C SDA | 5 | DATA, driver 1 |
+| GPIO4 | SPI SCK | 1 | CLK_1, driver 2 |
+| GPIO5 | SPI MISO | 2 | DATA_1, driver 2 |
+| GPIO1 | Analog Input | 9 | S1, top button |
+| GPIO0 | Analog Input | 10 | S2, bottom button |
+| GND |  | 8 | GND |
 ## Configuration
 
 ```yaml
